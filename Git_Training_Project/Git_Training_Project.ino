@@ -24,7 +24,7 @@
 
 void set_led_time(int mS_in);
 
-int LED_toggle_time = 1000;
+int LED_toggle_time = 5000;
 
 // the setup function runs once when you press reset or power the board
 void setup() 
