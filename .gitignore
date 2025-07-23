@@ -1,0 +1,44 @@
+cat <<EOF > .gitignore
+/Harald_Fob/Debug/
+/Harald_Fob/Release/
+/Harald_Fob/build/
+/Harald_Fob/STM32CubeIDE/Debug/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+.settings/
+.metadata/
+*.launch
+*.log
+
+*.cyclo
+*.su
+*.mk
+.vscode/
+.DS_Store
+Thumbs.db
+*.dep
+# General
+*.swp
+*.bak
+*.tmp
+*.user
+*.orig
+*.srec
+*.obj
+*.a
+*.so
+*.out
+
+# JetBrains / VS Code / Other IDEs
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+EOF
