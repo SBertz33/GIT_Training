@@ -46,3 +46,14 @@ void set_led_time(int mS_in)
 {
   LED_toggle_time =  mS_in;         
 }
+
+int led_brightness = 10;
+void set_led_brightness(int brightness_in) 
+{
+  led_brightness = brightness_in;         
+}
+
+int read_led_brightness(void) 
+{
+  return led_brightness;         
+}
