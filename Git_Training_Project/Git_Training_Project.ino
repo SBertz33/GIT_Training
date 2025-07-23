@@ -22,6 +22,10 @@
   https://docs.arduino.cc/built-in-examples/basics/Blink/
 */
 
+void set_led_time(int mS_in);
+
+int LED_toggle_time = 1000;
+
 // the setup function runs once when you press reset or power the board
 void setup() 
 {
@@ -32,11 +36,13 @@ void setup()
 // the loop function runs over and over again forever
 void loop() 
 {
-  // Toggle pin ON to turn on the LED
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);   
-      
-  // Toggle pin off to turn off the LED              
+  delay(LED_toggle_time);                      // wait for a second
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
-  delay(1000);                      // wait for a second
+  delay(LED_toggle_time);                      // wait for a second
+}
+
+void set_led_time(int mS_in) 
+{
+  LED_toggle_time =  mS_in;         
 }
