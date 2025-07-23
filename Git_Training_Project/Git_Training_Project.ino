@@ -32,8 +32,11 @@ void setup()
 // the loop function runs over and over again forever
 void loop() 
 {
+  // Toggle pin ON to turn on the LED
   digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(1000);                      // wait for a second
+  delay(1000);   
+      
+  // Toggle pin off to turn off the LED              
   digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);                      // wait for a second
 }
