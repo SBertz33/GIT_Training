@@ -62,3 +62,13 @@ bool isPrime(int num)
     }
     return true;
 }
+
+// Test function
+bool isTwo( int num)
+{
+	if (num == 2)
+		return true;
+	else
+		return false;
+	
+}
