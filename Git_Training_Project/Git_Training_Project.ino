@@ -63,7 +63,14 @@ bool isPrime(int num)
     return true;
 }
 
-
+// Test function
+bool isTwo( int num)
+{
+	if (num == 2)
+		return true;
+	else
+		return false;
+}
 bool isOdd(int num)
 {
 	return num%2;
@@ -83,5 +90,4 @@ bool isthree(int var)
 		var = 3;
 	}
 	return var;
-
 }
