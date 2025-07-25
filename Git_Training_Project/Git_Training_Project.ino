@@ -62,3 +62,15 @@ bool isPrime(int num)
     }
     return true;
 }
+
+// Test function
+
+bool istrue(void)
+{
+	bool var = false;
+	if(var == false)
+	{
+		var = true;
+	}
+	return var;
+}
