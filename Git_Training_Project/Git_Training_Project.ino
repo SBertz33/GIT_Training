@@ -62,3 +62,14 @@ bool isPrime(int num)
     }
     return true;
 }
+
+// Test function
+
+bool isthree(int var)
+{;
+	if(var != 3)
+	{
+		var = 3;
+	}
+	return var;
+}
