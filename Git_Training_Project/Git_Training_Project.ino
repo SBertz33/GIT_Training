@@ -62,3 +62,8 @@ bool isPrime(int num)
     }
     return true;
 }
+
+bool isOdd(int num)
+{
+	return num%2;
+}
