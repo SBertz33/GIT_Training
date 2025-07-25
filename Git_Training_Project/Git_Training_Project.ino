@@ -62,7 +62,7 @@ bool isPrime(int num)
     }
     return true;
 }
-
+//This is a better way to determine if something is prime.
 bool isPrimeAgain(int num)
 {
     if (num <= 1) return false;
