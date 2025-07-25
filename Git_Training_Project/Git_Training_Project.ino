@@ -63,10 +63,15 @@ bool isPrime(int num)
     return true;
 }
 
+// Sams test function!!~
+bool isEven(int num_in)
+{
+  return !num_in%2;
+}
 // Test function
 
 bool isthree(int var)
-{;
+{
 	if(var != 3)
 	{
 		var = 3;
