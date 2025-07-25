@@ -65,12 +65,11 @@ bool isPrime(int num)
 
 // Test function
 
-bool istrue(void)
-{
-	bool var = false;
-	if(var == false)
+bool isthree(int var)
+{;
+	if(var != 3)
 	{
-		var = true;
+		var = 3;
 	}
 	return var;
 }
