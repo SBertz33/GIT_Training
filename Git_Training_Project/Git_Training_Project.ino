@@ -63,6 +63,12 @@ bool isPrime(int num)
     return true;
 }
 
+
+bool isOdd(int num)
+{
+	return num%2;
+}
+
 // Sams test function!!~
 bool isEven(int num_in)
 {
@@ -77,4 +83,5 @@ bool isthree(int var)
 		var = 3;
 	}
 	return var;
+
 }
