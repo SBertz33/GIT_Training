@@ -62,6 +62,7 @@ bool isPrime(int num)
     }
     return true;
 }
+
 //This is a better way to determine if something is prime.
 bool isPrimeAgain(int num)
 {
@@ -76,4 +77,16 @@ bool isPrimeAgain(int num)
             return false;
     }
     return true;
+
+
+// Test function
+
+bool isthree(int var)
+{;
+	if(var != 3)
+	{
+		var = 3;
+	}
+	return var;
+
 }
